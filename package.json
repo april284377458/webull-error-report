@@ -1,0 +1,32 @@
+{
+  "name": "error-report",
+  "version": "1.0.0",
+  "description": "use it report the webullApp's error to decomple server",
+  "main": "lib/index.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --progress --profile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/plugin-transform-typescript": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
