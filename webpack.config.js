@@ -10,8 +10,7 @@ module.exports = () => ({
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: '[name].js',
-        library: "errorTool",
-        libraryExport: "default",
+        library: "errorTool", 
         libraryTarget: "umd"
     },
     mode: 'production',

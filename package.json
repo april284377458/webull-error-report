@@ -8,13 +8,14 @@
     "lib"
   ],
   "scripts": {
-    "build": "webpack --progress --profile"
+    "build": "webpack --progress --profile" 
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "leon",
+  "license": "UNLICENSED",
   "dependencies": {
-    "axios": "^0.21.0"
+    "axios": "^0.21.0",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

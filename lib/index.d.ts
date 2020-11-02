@@ -1,10 +1,13 @@
-declare const ResultType : ["success", "fail"];
+declare type ResultType = "success" | "fail";
 
-interface data {
-
+declare interface data { 
+    terminal : string;// 平台终端
+    version : string;  // 版本号
+    message : string;// 错误消息
+    stack : string;// 错误堆栈字符串 
 }
 
-interface result {
+declare interface result {
     status : ResultType;
     error? : string;
 }

@@ -1,3 +1,3 @@
 module.exports = {
-    postErrorUrl: "", 
+    postErrorUrl: "localhost:3000/collectImformation", 
 }
