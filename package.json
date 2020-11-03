@@ -1,5 +1,5 @@
 {
-  "name": "error-report",
+  "name": "webull-error-report",
   "version": "1.0.0",
   "description": "use it report the webullApp's error to decomple server",
   "main": "lib/index.js",
@@ -12,6 +12,10 @@
   },
   "keywords": [],
   "author": "leon",
+  "contributors": [{
+    "name": "liaohan",
+    "email": "li_ao_han@126.com"
+  }],
   "license": "UNLICENSED",
   "dependencies": {
     "axios": "^0.21.0",
