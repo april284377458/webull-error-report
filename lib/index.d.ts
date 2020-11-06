@@ -3,7 +3,7 @@ declare type ResultType = "success" | "fail";
 declare interface data {  
     message : string;// 错误消息
     stack : string;// 错误堆栈字符串 
-    record:  string;// 操作记录
+    record?:  string;// 操作记录
 } 
 
 declare interface result {
