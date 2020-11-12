@@ -1,7 +1,8 @@
 # webull-error-report
 use it report the webullApp's error to decomple server
 
-# example1  web页签方式
+# example1   
+##  web页签方式
 <script>  
 webullErrorApp = "h5-user", // 必传 平台端  
 window.webullErrorVer = "3.12",// 版本号  
@@ -19,7 +20,8 @@ window.onerror = function(message, source, lineno, colno, error) {
 })();
 </script>  
 
-# example2  nodejs  
+# example2  
+## nodejs  
 import ErrorReport from "webull-error-report"  
 const reportObj = new ErrorReport();  
 /*  
