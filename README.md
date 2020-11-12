@@ -19,10 +19,10 @@ window.onerror = function(message, source, lineno, colno, error) {
 
 # example2
 const reportObj = new ErrorReport();  
-/*
-*@p1 平台
-*@p1 版本号
-*@p1 是否上报到预演
-*/
-reportObj.init("h5-user", "3.12", true);  
+/*  
+*@p1 平台  
+*@p1 版本号  
+*@p1 是否上报到预演  
+*/  
+reportObj.init("h5-user", "3.12", true);    
 reportObj.report({ message : "",  stack : "" });  
