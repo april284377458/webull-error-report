@@ -2,22 +2,22 @@
 use it report the webullApp's error to decomple server
 
 # example1   
-##  web页签方式
+##  web页签方式  
 <script>  
-webullErrorApp = "h5-user", // 必传 平台端  
-window.webullErrorVer = "3.12",// 版本号  
-window.webullErrorPre = true;// 是否上报到预演  
-window.onerror = function(message, source, lineno, colno, error) {   
-  window.webullError.push(error);  
-};  
-(function () {  
-    var a = document.createElement("script");   
+  webullErrorApp = "h5-user", // 必传 平台端  
+   window.webullErrorVer = "3.12",// 版本号  
+   window.webullErrorPre = true;// 是否上报到预演  
+   window.onerror = function(message, source, lineno, colno, error) {  
+   window.webullError.push(error);  
+  };  
+  (function () {  
+    var a = document.createElement("script");  
     a.type = "text/javascript";  
     a.async = !0;  
-    a.src = "./errorIndex.js";  
+    a.src = "./errorIndex.js";   
     var b = document.getElementsByTagName("script")[0];  
     b.parentNode.insertBefore(a, b)  
-})();
+  })();  
 </script>  
 
 # example2  
