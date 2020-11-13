@@ -1,6 +1,6 @@
 {
   "name": "webull-error-report",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "use it report the webullApp's error to decomple server",
   "main": "lib/index.js",
   "files": [
@@ -11,7 +11,7 @@
     "build": "webpack --progress --profile"
   },
   "keywords": [],
-  "author": "leon",
+  "author": "liaohan",
   "contributors": [
     {
       "name": "liaohan",
