@@ -14,7 +14,7 @@ module.exports = () => ({
         libraryTarget: "umd"
     },
     mode: 'production',
-    devtool: 'nosources-source-map',
+    devtool: 'hidden-source-map',
     module: {
         rules: [
             {
