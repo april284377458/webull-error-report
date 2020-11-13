@@ -19,10 +19,7 @@
     }
   ],
   "license": "UNLICENSED",
-  "dependencies": {
-    "axios": "^0.21.0",
-    "moment": "^2.29.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
