@@ -13,7 +13,7 @@ use it report the webullApp's error to decomple server
   var a = document.createElement("script");  
   a.type = "text/javascript";  
   a.async = !0;  
-  a.src = "./errorIndex.js";   
+  a.src = "https://pub.webull.com/global/tools/report-1.0.js";   
   var b = document.getElementsByTagName("script")[0];  
   b.parentNode.insertBefore(a, b)  
 })();  
