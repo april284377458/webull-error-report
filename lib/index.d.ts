@@ -20,6 +20,8 @@ declare class ErrorReport {
     report : errorReport;
 }
 
-export default ErrorReport;
+declare const errortool : ErrorReport; 
+
+export default errortool;
  
 
