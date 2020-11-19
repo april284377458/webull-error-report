@@ -20,12 +20,11 @@ use it report the webullApp's error to decomple server
 
 # example2  
 ## nodejs  
-import ErrorReport from "webull-error-report"  
-const reportObj = new ErrorReport();  
+import reportTool from "webull-error-report"   
 /*  
 *@p1 平台  
 *@p2 版本号  
 *@p3 是否上报到预演  
 */  
-reportObj.init("h5-user", "3.12", true);    
-reportObj.report({ message : "",  stack : "" });  
+reportTool.init("h5-user", "3.12", true);    
+reportTool.report({ message : "",  stack : "" });  
