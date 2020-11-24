@@ -6,6 +6,7 @@ use it report the webullApp's error to decomple server
   window.webullErrorApp = "h5-user", // 必传 平台端  
   window.webullErrorVer = "3.12",// 版本号  
   window.webullErrorPre = true;// 是否上报到预演  
+  window.webullError = [];
   window.onerror = function(message, source, lineno, colno, error) {  
   window.webullError.push(error);  
 };  
@@ -13,7 +14,7 @@ use it report the webullApp's error to decomple server
   var a = document.createElement("script");  
   a.type = "text/javascript";  
   a.async = !0;  
-  a.src = "https://pub.webull.com/global/tools/report-1.0.js";   
+  a.src = "https://pub.webull.com/global/tools/report-1.2.js";   
   var b = document.getElementsByTagName("script")[0];  
   b.parentNode.insertBefore(a, b)  
 })();  
