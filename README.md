@@ -14,7 +14,7 @@ use it report the webullApp's error to decomple server
   var a = document.createElement("script");  
   a.type = "text/javascript";  
   a.async = !0;  
-  a.src = "https://pub.webull.com/global/tools/report-1.2.js";   
+  a.src = "https://pub.webull.com/global/tools/report1.3.js";   
   var b = document.getElementsByTagName("script")[0];  
   b.parentNode.insertBefore(a, b)  
 })();  
