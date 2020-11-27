@@ -16,7 +16,7 @@ module.exports = () => {
             libraryTarget: "umd"
         },
         mode: process.env.NODE_ENV,
-        devtool:  nodeenv === "development"? "cheap-source-map" : 'hidden-source-map',
+        devtool:  nodeenv === "development"? "inline-source-map" : 'hidden-source-map',
         module: {
             rules: [
                 {

@@ -4,6 +4,7 @@ declare interface data {
     message : string;// 错误消息
     stack : string;// 错误堆栈字符串  
     record?:  string;// 操作记录
+    region?: string;// 地区
 } 
 
 declare interface result {
