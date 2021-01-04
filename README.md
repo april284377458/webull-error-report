@@ -17,7 +17,7 @@ use it report the webullApp's error to decomple server
     var a = document.createElement("script");  
     a.type = "text/javascript";  
     a.async = !0;  
-    a.src = "https://pub.webull.com/global/tools/report1.5.js";   
+    a.src = "https://pub.webull.com/global/tools/report1.6.js";   
     var b = document.getElementsByTagName("script")[0];  
     b.parentNode.insertBefore(a, b)  
   })();  
@@ -28,7 +28,7 @@ use it report the webullApp's error to decomple server
 import reportTool from "webull-error-report"   
 /*  
 *@p1 平台  
-*@p2 版本号  
+*@p2 版本号 ["us", "global", "pre", "locale",]  
 *@p3 是否上报到预演  
 *@p3 是否上报到预演 
 */  
